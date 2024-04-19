@@ -1,22 +1,26 @@
 "use client";
 import { useState, useEffect } from "react";
-import {LoadPage} from './LoadPage'
+import {LoadPage} from './Components/LoadPage'
+import {NavBar} from './Components/Navigation'
+
+
 
 export default function Home() {
 
  const [loading, setLoading] = useState(true)
-
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3500)
+    setTimeout(() => setLoading(false), 2000)
   }, [])
 
   return ( 
-  
   <>
-
  { loading === false ? (
 <section>
- <div>developer</div>
+<NavBar/>
+
+<main>
+  <h1 className="header-text">creative developer designer</h1>
+</main>
 </section>
 
 ) 

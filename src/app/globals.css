@@ -2,5 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NeueMontreal";
+  src: local("NeueMontreal"),
+    url("./Fonts/NeueMontreal-Light.otf") format("opentype") tech(color-COLRv1);
+}
+
+@font-face {
+  font-family: "Porlane";
+  src: local("Porlane"),
+    url("./Fonts/Porlane-Regular.ttf") format("opentype") tech(color-COLRv1);
+}
+
 body {
+  background: #292929;
+  color: #f2f2f2;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-family: "Porlane", sans-serif;
+  font-size: 25rem;
+  color: #f2f2f2;
 }

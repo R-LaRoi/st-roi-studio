@@ -6,7 +6,7 @@ export const LoadPage = (): React.ReactElement => {
 
   return (
  <div className="load-body h-screen">
-<span className="loader "></span>
+<span className="loader"></span>
 
   </div>   
 //   
