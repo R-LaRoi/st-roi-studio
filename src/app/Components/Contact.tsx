@@ -34,7 +34,15 @@ Available for freelance work.
    <div className=" ct-col-3">
 
  </div><div className="ct-col-1">
-<div> back to top</div>
+<div> 
+<button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-neutral-800 dark:text-white dark:border-neutral-600 dark:hover:bg-neutral-700 dark:hover:border-neutral-600 dark:focus:ring-neutral-700">
+Back to top
+<span className="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold  bg-slate-50 rounded-full">
+<svg className="h-3 w-3 text-slate-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="18" y1="11" x2="12" y2="5" />  <line x1="6" y1="11" x2="12" y2="5" /></svg>
+</span>
+</button>
+
+</div>
  </div>
 
   <div className=" ct-col-2">
