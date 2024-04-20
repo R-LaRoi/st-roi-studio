@@ -5,8 +5,23 @@ export const Intro = (): React.ReactElement => {
 return(
 <section>
   <section className="--intro ">
+
+<div className= 'double-cards'>
+
+
 <div className="col-1">  Hi! I'm Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. </div>
-<img  className="col-2 rounded-2xl" src="https://github.com/R-LaRoi/st-roi-studio/assets/114012059/ad4bc82d-3351-4f17-ae2a-66824e7bf460" alt="woman jumping rope"  />
+
+ <video playsInline autoPlay muted loop className="col-2 rounded-2xl" id='jmp'>
+        <source
+          src="
+https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8a-7aeb69cf2166
+"  type="video/mp4"
+        />
+      </video>
+
+{/* <img  className="col-2 rounded-2xl" src="https://github.com/R-LaRoi/st-roi-studio/assets/114012059/ad4bc82d-3351-4f17-ae2a-66824e7bf460" alt="woman jumping rope"  /> */}
+
+</div>
 </section>
 
 <div className="horizontal-line">
@@ -22,7 +37,8 @@ As a creative developer, I focus on both design and development — allowing me 
 </section>
 <div className="horizontal-line"
 ></div>
-<section className="about ">
+<section className="about
+">
   <div className="abt-title">
  Here's what I do
   </div>
