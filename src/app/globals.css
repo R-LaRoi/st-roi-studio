@@ -88,58 +88,7 @@ body {
   }
 }
 
-.--intro {
-  z-index: 1;
-  max-width: 120rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3rem 2rem 4rem 2rem;
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5rem;
-}
-
-.cards {
-  width: 100%;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1.25rem;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-
-  display: grid;
-  position: relative;
-  /* height: 90vh; */
-}
-
-.col-1 {
-  border-radius: 20px;
-
-  letter-spacing: -0.02rem;
-  font-size: 2rem;
-  line-height: 1.2;
-  background: #f2f2f2;
-  color: #292929;
-  padding: 6rem 3rem;
-  font-family: "NeueMontreal";
-}
-.col-2 {
-  border-radius: 20px;
-  width: 100%;
-}
-
 @media screen and (max-width: 768px) {
-  .cards {
-    width: 100%;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1.25rem;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    display: grid;
-    position: relative;
-    /* height: 90vh; */
-  }
-
   #scroll-text {
     margin-top: 30%;
     -moz-animation: my-animation 8s linear infinite;
@@ -155,31 +104,4 @@ body {
     width: 600px;
     text-align: left;
   }
-}
-
-.horizontal-line {
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 2rem 2rem;
-}
-
-.about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-family: "NeueMontreal";
-  font-size: 2rem;
-  margin: 2rem 2rem;
-  line-height: 1;
-}
-
-.abt-title {
-  font-family: "Porlane";
-  font-size: 5rem;
-  text-transform: uppercase;
-}
-
-.--cards {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
 }
