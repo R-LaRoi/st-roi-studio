@@ -1,14 +1,12 @@
 import React from 'react';
 import './Stylesheets/intro.css'
+import {Contact} from './Contact'
 
 export const Intro = (): React.ReactElement => {
 return(
 <section>
   <section className="--intro ">
-
 <div className= 'double-cards'>
-
-
 <div className="col-1">  Hi! I'm Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. </div>
 
  <video playsInline autoPlay muted loop className="col-2 rounded-2xl" id='jmp'>
@@ -102,6 +100,7 @@ As a creative developer, I focus on both design and development — allowing me 
 </div>
 
 </section>
+<Contact/>
 </section>
 
 
