@@ -11,7 +11,7 @@ return(
 <div className="col-1"> 
 
 <div>
- Hi! I'm Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
+ Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
 </div>
 
 
@@ -61,7 +61,7 @@ As a creative developer, I focus on both design and development — allowing me 
 <section className="about
 ">
   <div className="abt-title">
- Here's what I do
+ Here &apos; s what I do
   </div>
 
 <div className="--cards ">
@@ -107,7 +107,7 @@ As a creative developer, I focus on both design and development — allowing me 
         <div className="  py-2">
             <div className="font-bold text-3xl pb-12">UX | UI Design</div>
             <p className="text-white text-base mt-12 pt-20">
-              Designing for the web is not static. It's about interactions, animations, usability, consistency and so much more.
+              Designing for the web is not static. It&apos;s about interactions, animations, usability, consistency and so much more.
 
 
 
