@@ -2,6 +2,13 @@
 import React, {useState} from "react";
 import { Spin as Hamburger } from 'hamburger-react'
 import './Stylesheets/nav.css'
+import { motion } from "framer-motion"
+
+
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: "-100%" },
+}
 
 
 export const NavBar = (): React.ReactElement => {
@@ -11,6 +18,7 @@ const showNavMenu = () => {
    setNavActive(!navActive)
   }
 
+  
  
   return (
 
@@ -30,6 +38,8 @@ const showNavMenu = () => {
 
 <div onClick={showNavMenu} className="button">
 
+
+
      <Hamburger toggled={navActive} toggle={setNavActive}   /> 
 
         
@@ -48,7 +58,9 @@ const showNavMenu = () => {
     </li>
   </ul> 
   </div>
+
   </div>
+
   :
 
 

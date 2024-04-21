@@ -1,12 +1,10 @@
-import React from "react";
 import './Stylesheets/contact.css'
-
+import React, { useEffect } from "react";
 
 
 export const Contact = (): React.ReactElement => {
 return(
 <section className="--contact p-8 ">
-
 <div className="contact-card-container rounded-3xl p-5">
  <div className="ct-col-1">
 Designer & Developer
@@ -23,9 +21,13 @@ Available for freelance work.
 
  </div>
 <div className=" ct-col-2 ">
-<div className="center-text">Interested in </div>
-<div className="center-text">working together
+
+
+<div className="center-text">Interested in <br/>
+working together
 </div>
+
+
 <br/>
 <div>Always happy to hear from you! </div>
 <div>Send an email: </div>
@@ -59,6 +61,8 @@ studio
  </div>
 </div>
 
+
+
 </section>
 
 
@@ -67,5 +71,7 @@ studio
 
 
 }
+
+
 
 

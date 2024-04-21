@@ -24,7 +24,7 @@
   font-family: "Porlane";
   font-size: 11rem;
   text-transform: uppercase;
-  line-height: 0.6;
+  line-height: 0.8;
   color: #292929;
 }
 
@@ -51,37 +51,89 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
   .contact-card-container {
     grid-template-columns: 1fr;
-    align-content: center;
-    height: 100vh;
+
+    height: 90vh;
+    padding: 5rem;
+
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
   }
 
   .center-text {
-    padding: 2rem;
+    padding: 0rem;
     font-family: "Porlane";
-    font-size: 11rem;
+    font-size: 20vw;
     text-transform: uppercase;
-    line-height: 0.5;
+    line-height: 0.8;
     color: #292929;
   }
 
+  .ct-col-3,
   .ct-col-2,
-  .ct-col-1,
-  .ct-col-3 {
+  .ct-col-1 {
     text-align: center;
-    /* 
-    position: relative;
-    bottom: 30%; */
   }
 }
 
-@media screen and (min-width: 568px) {
-  .center-text {
-    padding: 3rem;
-    font-family: "Porlane";
-    font-size: 10rem;
-    line-height: 0.2;
+@media screen and (max-width: 568px) {
+  /* .center-text {
+    font-size: 20vw;
+  } */
+
+  .contact-card-container {
+    top: 70%;
   }
+
+  .contact-card-container {
+    grid-template-columns: 1fr;
+    height: 90vh;
+    padding: 1rem;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+}
+@media screen and (max-width: 376px) {
+}
+
+.anime {
+  margin-top: 2%;
+  height: 200px;
+  background-color: rgb(90, 67, 69);
+  width: 300px;
+  margin-bottom: 1rem;
+  padding: 6rem;
+}
+
+.--section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 4.5em;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  color: #888888;
+}
+
+a {
+  display: inline-block;
+  background-color: #66cf92;
+  color: #131615;
+  padding: 0.6rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1.5rem;
 }

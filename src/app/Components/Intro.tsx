@@ -2,6 +2,7 @@ import React from 'react';
 import './Stylesheets/intro.css'
 import {Contact} from './Contact'
 
+
 export const Intro = (): React.ReactElement => {
 return(
 <section>
@@ -43,14 +44,18 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 <div className="horizontal-line">
 
 </div>
+
 <section className="about">
+
   <div className="abt-title">
     about me
   </div>
+
 <div>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.
 </div>
 </section>
+
 <div className="horizontal-line"
 ></div>
 <section className="about
@@ -58,9 +63,10 @@ As a creative developer, I focus on both design and development — allowing me 
   <div className="abt-title">
  Here's what I do
   </div>
+
 <div className="--cards ">
 <div>
-<div className="flex px-3 py-5 bg-neutral-700 rounded-lg ">
+<div className=" h-full flex px-3 py-5 bg-neutral-700 rounded-lg ">
     <div className="max-w-sm rounded overflow-hidden ">
              <svg
       viewBox="0 0 1024 1024"
@@ -87,7 +93,7 @@ As a creative developer, I focus on both design and development — allowing me 
 </div>
 
 <div>
-<div className="flex px-3 py-5 bg-neutral-700 rounded-lg ">
+<div className="h-full flex px-3 py-5 bg-neutral-700 rounded-lg ">
     <div className="max-w-sm rounded overflow-hidden ">
              <svg
       viewBox="0 0 1024 1024"
@@ -114,10 +120,12 @@ As a creative developer, I focus on both design and development — allowing me 
         </div>
     </div>
 </div>
+
 </div>
 </div>
 
 </section>
+<br/><br/><br/>
 <Contact/>
 </section>
 

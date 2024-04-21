@@ -101,16 +101,16 @@
 }
 
 @media screen and (max-width: 568px) {
+  .abt-title {
+    padding-bottom: 3rem;
+  }
+
   .--cards {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
     gap: 2rem;
   }
-  .abt-title {
-    padding-bottom: 3rem;
-  }
-
   .about {
     grid-template-columns: 1fr;
     font-size: 1.5rem;

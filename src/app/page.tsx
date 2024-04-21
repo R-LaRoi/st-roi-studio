@@ -30,6 +30,7 @@ export default function Home() {
 </main>
 </section>
 
+
 <Intro />
 
 </>
