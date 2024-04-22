@@ -140,7 +140,7 @@ As a creative developer, I focus on both design and development — allowing me 
 <br/><br/><br/>
 <Contact/>
 
-<Marquee/>
+
 </section>
 
 

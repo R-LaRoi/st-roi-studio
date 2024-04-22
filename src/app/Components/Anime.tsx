@@ -12,13 +12,13 @@ export const Anime = ( {children, width = 'fit-content'}: Props) => {
   return (
 
 <div style={{}}>
-  <motion.button
+  <motion.div
 whileHover={{scale:1.2 }}
 whileTap={{ scale: .95, rotate: "2.5deg"}}
 
       >
         {children}
-        </motion.button>
+        </motion.div>
 
  {/* <motion.div
      variants ={{ 

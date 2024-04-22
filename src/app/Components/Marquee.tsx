@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 
 import "./Stylesheets/marquee.css"
 
-interface Props {
+type Props = {
   children: JSX.Element;
  };
 
