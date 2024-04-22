@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 @font-face {
   font-family: "NeueMontreal";
@@ -17,89 +19,4 @@
 body {
   background: #292929;
   color: #f2f2f2;
-}
-
-.header-text {
-  text-transform: uppercase;
-  font-family: "Porlane", sans-serif;
-  font-size: 27rem;
-  color: #f2f2f2;
-  white-space: nowrap;
-  line-height: 0.8;
-  margin-right: 0.1rem;
-  display: inline-block;
-  position: relative;
-  width: 800px;
-  text-align: left;
-}
-
-#scroll-container {
-  flex: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-}
-
-#scroll-text {
-  text-align: left;
-  margin-top: 10%;
-  /* animation properties */
-  -moz-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-  }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #scroll-text {
-    margin-top: 30%;
-    -moz-animation: my-animation 8s linear infinite;
-    -webkit-animation: my-animation 9s linear infinite;
-    animation: my-animation 9s linear infinite;
-  }
-
-  .header-text {
-    line-height: 0.8;
-    margin-left: 1rem;
-    display: inline-block;
-    position: relative;
-    width: 600px;
-    text-align: left;
-  }
 }
