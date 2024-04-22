@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import {LoadPage} from './Components/LoadPage'
 import {NavBar} from './Components/Navigation'
 import { Intro } from "./Components/Intro";
+import { Marquee } from "./Components/Marquee";
 
 
 export default function Home() {
@@ -20,13 +21,18 @@ export default function Home() {
   <NavBar/>
 <section>
 <main>
+<Marquee>
+  <div className="marquee-text" id=''>
+    creative developer & digital designer    creative developer & digital designer    creative developer & digital designer 
+    </div> 
+</Marquee>
 
-  <div id="scroll-container" >
+  {/* <div id="scroll-container" >
   <div className="header-text" id='scroll-text'>
     creative developer&nbsp;& digital designer 
     </div>  
 
-  </div>
+  </div> */}
 </main>
 </section>
 

@@ -2,8 +2,8 @@
 import React, {useState} from "react";
 import { Spin as Hamburger } from 'hamburger-react'
 import './Stylesheets/nav.css'
-import { motion } from "framer-motion"
 
+import{Anime} from './Anime'
 
 const variants = {
   open: { opacity: 1, x: 0 },
@@ -39,7 +39,6 @@ const showNavMenu = () => {
 <div onClick={showNavMenu} className="button">
 
 
-
      <Hamburger toggled={navActive} toggle={setNavActive}   /> 
 
         
@@ -69,6 +68,7 @@ const showNavMenu = () => {
 
        
 </div>
+
 }
 
 

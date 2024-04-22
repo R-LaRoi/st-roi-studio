@@ -1,27 +1,35 @@
 import React from 'react';
 import './Stylesheets/intro.css'
 import {Contact} from './Contact'
+import {Reveal} from './Reveal'
+import {Anime} from './Anime'
+import {ScrollPage}  from './Scroll'
+import { Marquee } from './Marquee';
+
+
 
 
 export const Intro = (): React.ReactElement => {
 return(
 <section>
-  <section className="--intro ">
+<section className="--intro ">
+<Reveal>
 <div className= 'double-cards'>
 <div className="col-1"> 
-
-<div>
+<ScrollPage>
+<div className='text-intro'>
  Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
-</div>
-
+</div></ScrollPage>
 
 <div>
+<Anime>
   <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-neutral-800 dark:text-white dark:border-neutral-600 dark:hover:bg-neutral-700 dark:hover:border-neutral-600 dark:focus:ring-neutral-700">
 MEET RACHEL
 <span className="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold  bg-slate-50 rounded-full">
 <svg className="h-2 w-2 text-slate-500"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="17" y1="7" x2="7" y2="17" />  <polyline points="8 7 17 7 17 16" /></svg>
 </span>
 </button>
+</Anime>
 </div>
 
 
@@ -39,6 +47,7 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 {/* <img  className="col-2 rounded-2xl" src="https://github.com/R-LaRoi/st-roi-studio/assets/114012059/ad4bc82d-3351-4f17-ae2a-66824e7bf460" alt="woman jumping rope"  /> */}
 
 </div>
+</Reveal>
 </section>
 
 <div className="horizontal-line">
@@ -46,24 +55,30 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 </div>
 
 <section className="about">
-
+<Reveal>
   <div className="abt-title">
     about me
   </div>
-
+</Reveal>
+<Reveal>
 <div>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.
 </div>
+</Reveal> 
 </section>
 
 <div className="horizontal-line"
-></div>
+>
+
+</div>
 <section className="about
 ">
+  <ScrollPage>
   <div className="abt-title">
  Here &apos; s what I do
   </div>
-
+  </ScrollPage>
+<Reveal>
 <div className="--cards ">
 <div>
 <div className=" h-full flex px-3 py-5 bg-neutral-700 rounded-lg ">
@@ -108,15 +123,11 @@ As a creative developer, I focus on both design and development — allowing me 
             <div className="font-bold text-3xl pb-12">UX | UI Design</div>
             <p className="text-white text-base mt-12 pt-20">
               Designing for the web is not static. It&apos;s about interactions, animations, usability, consistency and so much more.
-
-
-
             </p>
         </div>
         <div className=" py-2">
             <span className="inline-block border border-white rounded-full px-3 py-1 text-xs font-semibold text-white mr-2">Figma</span>
             <span className="inline-block border border-white rounded-full px-3 py-1 text-xs font-semibold text-white mr-2">Tailwind</span>
-         
         </div>
     </div>
 </div>
@@ -124,9 +135,12 @@ As a creative developer, I focus on both design and development — allowing me 
 </div>
 </div>
 
+</Reveal>
 </section>
 <br/><br/><br/>
 <Contact/>
+
+<Marquee/>
 </section>
 
 

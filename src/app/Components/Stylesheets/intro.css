@@ -77,6 +77,23 @@
   gap: 1rem;
 }
 
+.text-intro {
+  animation-duration: 3s;
+  animation-name: slideup;
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 899px) {
   .double-cards {
     display: flex;
@@ -120,4 +137,11 @@
   .col-1 {
     height: 55vh;
   }
+}
+
+.marquee-text {
+  text-transform: uppercase;
+  font-family: "Porlane", sans-serif;
+  font-size: 27rem;
+  color: #f2f2f2;
 }
