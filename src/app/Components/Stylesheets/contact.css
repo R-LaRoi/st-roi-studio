@@ -55,7 +55,7 @@
   .contact-card-container {
     grid-template-columns: 1fr;
 
-    height: 90vh;
+    height: 100vh;
     padding: 5rem;
 
     grid-column-gap: 16px;
@@ -109,27 +109,6 @@
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 110vh;
   padding: 0 2rem;
-}
-
-h1 {
-  font-size: 4.5em;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  color: #888888;
-}
-
-a {
-  display: inline-block;
-  background-color: #66cf92;
-  color: #131615;
-  padding: 0.6rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  margin-top: 1.5rem;
 }

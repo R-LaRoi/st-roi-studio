@@ -6,14 +6,14 @@ interface Props {
   children: JSX.Element;
   width?: 'fit-content' | "100%"};
 
-export const Anime = ( {children, width = 'fit-content'}: Props) => {
+export const Anime = ( {children}: Props) => {
 
 
   return (
 
 <div style={{}}>
   <motion.div
-whileHover={{scale:1.2 }}
+whileHover={{scale:1.05 }}
 whileTap={{ scale: .95, rotate: "2.5deg"}}
 
       >

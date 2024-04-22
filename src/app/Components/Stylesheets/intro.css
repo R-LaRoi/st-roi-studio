@@ -3,29 +3,28 @@
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 3rem 2rem 4rem 2rem;
+  margin-bottom: 6rem;
+  padding: 3rem 2rem 8rem 2rem;
 }
 
 .col-1 {
   max-width: 100%;
-  font-size: 2.375em;
   line-height: 1.2;
   border-radius: 20px;
   letter-spacing: -0.02rem;
   font-size: 2rem;
-  line-height: 1.2;
   background: #ffff;
   color: #292929;
   padding: 9rem 3rem;
   font-family: "NeueMontreal";
-  height: 110%;
+  height: 115%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .col-2 {
   width: 100%;
-  height: 110%;
+  height: 115%;
   max-width: none;
   object-fit: cover;
   object-position: 50% 100%;
@@ -117,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 586px) {
   .abt-title {
     padding-bottom: 3rem;
   }
@@ -135,7 +134,7 @@
   }
 
   .col-1 {
-    height: 55vh;
+    height: 75vh;
   }
 }
 
