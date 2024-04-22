@@ -8,7 +8,6 @@ export const WorkCards = ()=> {
 
 let showCards = projectData.map((item, index)=> {
 
-
 if(index < 2)
 return(
 
@@ -16,18 +15,12 @@ return(
         <div className='wk-col-1'>
         <h2 style={{fontFamily:"Porlane" , fontSize:"4rem"}}>{item?.title}</h2>
         <p>{item?.text}</p> 
-
         </div>
-
- 
   <div >
 <img className='wk-col-2' src={item?.photo} alt="" />
   </div>
     
-
-</div>
-
-     
+</div>    
 
 )
 
