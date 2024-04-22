@@ -79,10 +79,6 @@
 }
 
 @media screen and (max-width: 568px) {
-  /* .center-text {
-    font-size: 20vw;
-  } */
-
   .contact-card-container {
     top: 70%;
   }
