@@ -7,10 +7,6 @@ import Lenis from '@studio-freight/lenis'
 
 
 
-
-
-
-
 export const WorkCards = ()=> {
   
 const offset = -15;
@@ -21,9 +17,6 @@ const {scrollYProgress} = useScroll({target:container,
 offset:['start start', 'end end']})
 
 const scale = useTransform (scrollYProgress, [0,1], [2,1])
-
-let showCards = projectData.map((item, index)=> {
-const i = item?.id;
 
 useEffect(() => {
   const lenis = new Lenis()
@@ -38,16 +31,13 @@ requestAnimationFrame(raf)
 
 }, [])
 
-
-
-
-
+let showCards = projectData.map((item, index)=> {
 
 
 if(index < 4)
 
 return(
-<div ref={container} className='wrapper'>
+<div ref={container} className='wrapper' key={item?.id} >
       <motion.div className='wk-card-container ' key={item?.id} style={{scale}}
          animate={{
                 top: index * - offset,
