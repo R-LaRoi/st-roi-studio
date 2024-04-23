@@ -16,7 +16,7 @@
   background: #ffff;
   color: #292929;
   padding: 9rem 3rem;
-  font-family: "NeueMontreal";
+  font-family: "Visby";
   height: 115%;
   display: flex;
   flex-direction: column;
@@ -57,11 +57,12 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: "NeueMontreal";
+  font-family: "Visby";
   font-size: 2rem;
   margin: 2rem 2rem;
   line-height: 1;
   height: 60vh;
+  /* font-weight: 800; */
 }
 
 .abt-title {
@@ -79,6 +80,7 @@
 .text-intro {
   animation-duration: 3s;
   animation-name: slideup;
+  font-weight: 800;
 }
 
 @keyframes slideup {
@@ -108,7 +110,7 @@
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-family: "NeueMontreal";
+    font-family: "Visby";
     font-size: 2rem;
     margin: 3rem 2rem;
     padding-bottom: 5rem;

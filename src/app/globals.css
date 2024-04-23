@@ -5,9 +5,9 @@
 @import "tailwindcss/utilities";
 
 @font-face {
-  font-family: "NeueMontreal";
-  src: local("NeueMontreal"),
-    url("./Fonts/NeueMontreal-Light.otf") format("opentype") tech(color-COLRv1);
+  font-family: "Visby";
+  src: local("Visby"),
+    url("./Fonts/VisbyRegular.ttf") format("opentype") tech(color-COLRv1);
 }
 
 @font-face {
