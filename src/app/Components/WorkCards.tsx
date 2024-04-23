@@ -21,7 +21,7 @@ const scale = useTransform (scrollYProgress, [0,1], [2,1])
 useEffect(() => {
   const lenis = new Lenis()
 
-  function raf(time) {
+  function raf(time: any) {
   lenis.raf(time)
   requestAnimationFrame(raf)
 }
