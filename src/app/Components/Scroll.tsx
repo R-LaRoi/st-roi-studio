@@ -2,8 +2,6 @@
 import React, {useEffect, useRef} from 'react'
 import { motion, useInView, useAnimation, useScroll } from "framer-motion";
 
-
-
 const titleOne ="about me"
 
 const title = {
@@ -28,10 +26,6 @@ type Props =
   width?: 'fit-content' | "100%"};
 
 export const ScrollPage = ( {children, width = 'fit-content'}: Props) => {
-
-
-// const {scrollXProgress} = useScroll();
-
 
   return (
 

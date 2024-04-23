@@ -1,3 +1,15 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 2rem;
+  margin-bottom: 50vh;
+  margin-top: 70vh;
+  padding: 1rem;
+}
+
 .wk-card-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -6,6 +18,11 @@
   border-radius: 20px;
   height: 90vh;
   color: #292929;
+  position: relative;
+  top: 35%;
+  border-radius: 25px;
+  box-shadow: -4px -10px 24px 11px rgba(0, 0, 0, 0.1);
+  transform-origin: top;
 }
 
 .wk-col-1 {
@@ -24,6 +41,7 @@
   left: 0%;
   right: 0%;
   height: 90vh;
+  overflow: hidden;
 }
 
 /* container */
