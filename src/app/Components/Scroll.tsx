@@ -3,9 +3,7 @@ import React, {useEffect, useRef} from 'react'
 import { motion, useInView, useAnimation, useScroll } from "framer-motion";
 
 const titleOne ="about me"
-
 const title = {
-
   hiden:{opacity:1},
   visible:{ opacity: 1,
   transition:{
@@ -13,8 +11,7 @@ const title = {
     staggerChildren:0.08,
   },},
   }
-
-  const letter = {
+ const letter = {
     hiden:{opacity: 1},
   visible:{ opacity: 1, y:0,
   },}
@@ -42,20 +39,6 @@ export const ScrollPage = ( {children, width = 'fit-content'}: Props) => {
         </motion.div>
 
 
-
-{/* <motion.div
-style={{
-  background:"#fe019a",
-  transformOrigin: 'left',
-  position: 'sticky',
-  top: 0,
-  width: "100%",
-  height:"20px"
-}}
-
->
-{children}
-</motion.div> */}
 </div>
 
   );
