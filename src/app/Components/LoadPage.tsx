@@ -1,18 +1,23 @@
-"use client"
-import React from "react";
-import './Stylesheets/loading.css'
+import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { useEffect } from "react";
 
-export const LoadPage = (): React.ReactElement => {
+export const LoadPage = ()=> {
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, Math.round);
+
+
+  useEffect(() => {
+    const animation = animate(count, 100, { duration: 2 });
+
+    return animation.stop;
+  }, []);
 
   return (
- <div className="load-body h-screen">
-<span className="loader"></span>
 
-  </div>   
-//   
-//   <div className="one"></div>
-//   <div className="two"></div>
-
-  );
+ <div className="bg-zinc-800 text-center">
+  <motion.h1  
+  style={{fontFamily:'Porlane', fontSize:"50rem", color:"#f2f2f2"}}>{rounded}</motion.h1>
+  </div>
+  )
  
 }
