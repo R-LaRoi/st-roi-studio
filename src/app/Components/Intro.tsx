@@ -16,7 +16,9 @@ return(
 <Reveal>
 <div className= 'double-cards'>
 <div className="col-1"> 
-<AnimatedText children={' Hi! Im Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places.'}/>
+
+<AnimatedText/>
+
 
 <div>
 
@@ -49,12 +51,11 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 </div>
 
 <section className="about">
-{/* <Reveal> */}
-<h3 className='abt-title'>
+<Reveal>
 
-  <AnimatedText children={"about me"} />
-</h3>
-{/* </Reveal> */}
+    <h3 className='abt-title'>about me</h3>
+
+</Reveal>
 <Reveal>
 <p>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.

@@ -1,9 +1,12 @@
 import { motion, useInView} from "framer-motion";
 import { useEffect, useRef } from "react";
 
+// export const AnimatedText = ({children}:{ children?: React.ReactNode })
 
-export const AnimatedText = ({children}:{ children: React.ReactNode })   => {
+const phrase= "Hi! Im Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places."
 
+
+export const AnimatedText = ()   => {
 
 const ref = useRef(null)
 const sentence = 
@@ -32,13 +35,15 @@ const letter = {
 return(
 
 <motion.div
-className=""
+ref={ref}
+className="intro-text"
 variants={sentence}
 initial="hidden"
 animate="visible">
 
 
-{children?.toString().split('').map((char:String, index:number)=> {
+{phrase?.toString().split('').map((char:String, index:number)=> {
+  // console.log(children)
 return(
 
   <motion.span 
@@ -46,23 +51,12 @@ return(
   variants = {letter}
    > 
    {char}
-   
+
    </motion.span>
 )
 
 
 })}
-
-<br/>
-{/* {phrase2.split('').map((char, index)=> {
-return(
-
-  <motion.span 
-  key={char + '-' + index} 
-  variants = {letter}
-   > {char}</motion.span>
-)
-})} */}
 
 </motion.div>
 
@@ -71,41 +65,3 @@ return(
 
 }
 
-// words = phrase.split('')
-
-// return words.map((word:any, i:any ) => {
-// console.log(word)
-//   return(
-//   <div key={phrase + i}
-//         style={{ display: 'inline-block', overflow: 'hidden' }}
-//       >
-//         <motion.div
-//         className="text-intro"
-//           style={{ display: 'inline-block', willChange: 'transform' }}
-//           custom={i}
-          
-//         >
-//           {word + (i !== words.length - 1 ? '\u00A0' : '')}
-//         </motion.div>
-//       </div>
-//   )
-  
-
-// }
-
-
-//   <div>
-// <motion.div ref={ref}
-//   style={{ display: "inline-block" }}
-//   initial="hidden"
-//      animate="visible"
-
-//           variants={container}>
-// <div className="container">
-
-
-// </div>
-
-// </motion.div>
-
-//   </div>
