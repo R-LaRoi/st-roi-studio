@@ -1,24 +1,11 @@
 import { motion, useInView} from "framer-motion";
 import { useEffect, useRef } from "react";
 
-// interface Props {
-//   children: any;};
+
+export const AnimatedText = ({children}:{ children: React.ReactNode })   => {
 
 
-//     const container = {
-//     visible: {
-//       transition: {
-//         staggerChildren: 0.025
-//       }
-//     }
-//   };
-
-  
-// const text = [ "push animations" ]
-
-export const AnimatedText = () => {
-const phrase1 = 'about me'
-const phrase2 = 'about me'
+const ref = useRef(null)
 const sentence = 
 {
 hidden: {opacity:1},
@@ -50,20 +37,24 @@ variants={sentence}
 initial="hidden"
 animate="visible">
 
-{phrase1.split('').map((char, index)=> {
+
+{children?.toString().split('').map((char:String, index:number)=> {
 return(
 
   <motion.span 
   key={char + '-' + index} 
   variants = {letter}
-   > {char}</motion.span>
+   > 
+   {char}
+   
+   </motion.span>
 )
 
 
 })}
 
 <br/>
-{phrase2.split('').map((char, index)=> {
+{/* {phrase2.split('').map((char, index)=> {
 return(
 
   <motion.span 
@@ -71,7 +62,7 @@ return(
   variants = {letter}
    > {char}</motion.span>
 )
-})}
+})} */}
 
 </motion.div>
 

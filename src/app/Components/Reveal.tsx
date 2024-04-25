@@ -29,7 +29,7 @@ slider.start('visible')
       hidden: {opacity: 0, y:75 },
        visible: {opacity: 1, y:0 }
       }}
-initial="hidden"
+      initial="hidden"
       animate={mainControls}
       transition ={{ duration: 0.9, delay: .5}} 
        whileInView={{opacity:1 , x:0}}

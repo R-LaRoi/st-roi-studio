@@ -3,34 +3,27 @@ import {Contact} from './Contact'
 import {Reveal} from './Reveal'
 import {ScrollPage}  from './Scroll'
 import {Btn} from './Btn'
-import { AnimatedText } from './AnimatedText';
-
+import {AnimatedText } from './AnimatedText';
 import './Stylesheets/intro.css'
 import { WorkCards } from './WorkCards';
 
 export const Intro = (): React.ReactElement => {
+
 return(
 <section>
 <section className="--intro ">
+
 <Reveal>
 <div className= 'double-cards'>
 <div className="col-1"> 
-{/* <ScrollPage>
-<p className='text-intro'>
- Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
-</p></ScrollPage> */}
-
-<AnimatedText/>
-  {/* <p className='text-intro'>
- Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
-</p> */}
-{/* </AnimatedText> */}
+<AnimatedText children={' Hi! Im Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places.'}/>
 
 <div>
+
 <Btn>
   <span>meet rachel</span>
   </Btn>
-  
+
 </div>
 
 
@@ -56,11 +49,12 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 </div>
 
 <section className="about">
-<Reveal>
-  <h3 className="abt-title">
-    about me
-  </h3>
-</Reveal>
+{/* <Reveal> */}
+<h3 className='abt-title'>
+
+  <AnimatedText children={"about me"} />
+</h3>
+{/* </Reveal> */}
 <Reveal>
 <p>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.
@@ -139,9 +133,9 @@ As a creative developer, I focus on both design and development — allowing me 
 </Reveal>
 </section>
 <br/><br/><br/>
-{/* <Contact/> */}
 
 <WorkCards/>
+<Contact/>
 </section>
 
 

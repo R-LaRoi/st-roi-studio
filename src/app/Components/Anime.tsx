@@ -8,15 +8,12 @@ interface Props {
 
 export const Anime = ( {children}: Props) => {
 
-
   return (
 
 <div style={{}}>
   <motion.div
 whileHover={{scale:1.05 }}
-whileTap={{ scale: .95, rotate: "2.5deg"}}
-
-      >
+whileTap={{ scale: .95, rotate: "2.5deg"}} >
         {children}
         </motion.div>
 
