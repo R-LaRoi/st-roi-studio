@@ -2,8 +2,6 @@
 import React, {useEffect, useRef} from 'react'
 import { motion, useInView, useAnimation} from "framer-motion";
 
-
-
 interface Props {
   children: JSX.Element;
   width?: 'fit-content' | "100%"};
@@ -11,7 +9,7 @@ interface Props {
 export const Reveal = ( {children, width = 'fit-content'}: Props) => {
 
 const ref = useRef(null);
-const isInView = useInView(ref, {once: true});
+const isInView = useInView(ref);
 const mainControls = useAnimation()
 const slider = useAnimation();
 
@@ -34,6 +32,8 @@ slider.start('visible')
 initial="hidden"
       animate={mainControls}
       transition ={{ duration: 0.9, delay: .5}} 
+       whileInView={{opacity:1 , x:0}}
+
       >
         {children}
         </motion.div>

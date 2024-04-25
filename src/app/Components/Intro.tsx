@@ -3,6 +3,7 @@ import {Contact} from './Contact'
 import {Reveal} from './Reveal'
 import {ScrollPage}  from './Scroll'
 import {Btn} from './Btn'
+import { AnimatedText } from './AnimatedText';
 
 import './Stylesheets/intro.css'
 import { WorkCards } from './WorkCards';
@@ -14,10 +15,16 @@ return(
 <Reveal>
 <div className= 'double-cards'>
 <div className="col-1"> 
-<ScrollPage>
-<div className='text-intro'>
+{/* <ScrollPage>
+<p className='text-intro'>
  Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
-</div></ScrollPage>
+</p></ScrollPage> */}
+
+<AnimatedText/>
+  {/* <p className='text-intro'>
+ Hi! I &apos;m Rachel Stroy. I work with people to create web experiences that are user friendly and designed to go places. 
+</p> */}
+{/* </AnimatedText> */}
 
 <div>
 <Btn>
@@ -50,14 +57,14 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 
 <section className="about">
 <Reveal>
-  <div className="abt-title">
+  <h3 className="abt-title">
     about me
-  </div>
+  </h3>
 </Reveal>
 <Reveal>
-<div>
+<p>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.
-</div>
+</p>
 </Reveal> 
 </section>
 
@@ -68,9 +75,9 @@ As a creative developer, I focus on both design and development — allowing me 
 <section className="about
 ">
   <ScrollPage>
-  <div className="abt-title">
+  <h3 className="abt-title">
  Here&apos;s what I do
-  </div>
+  </h3>
   </ScrollPage>
 <Reveal>
 <div className="--cards ">

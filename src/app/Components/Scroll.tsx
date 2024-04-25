@@ -23,16 +23,18 @@ type Props =
   width?: 'fit-content' | "100%"};
 
 export const ScrollPage = ( {children, width = 'fit-content'}: Props) => {
+  const ref = useRef(null)
+
 
   return (
 
-<div>
+<div ref={ref}>
  <motion.div
 
  initial={{opacity:0 }}
  whileInView={{opacity:1 , x:0}}
   transition ={{ duration: 1, delay: .5}} 
-  viewport={{ once:true}}
+  viewport={{}}
 
 >
         {children}
