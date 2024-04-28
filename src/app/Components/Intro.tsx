@@ -6,31 +6,23 @@ import {Btn} from './Btn'
 import {AnimatedText } from './AnimatedText';
 import './Stylesheets/intro.css'
 import { WorkCards } from './WorkCards';
+import { Marquee } from './Marquee';
 
 export const Intro = (): React.ReactElement => {
 
 return(
 <section>
 <section className="--intro ">
-
-<Reveal>
-<div className= 'double-cards'>
-<div className="col-1"> 
-
-<AnimatedText/>
-
-
-<div>
-
-<Btn>
-  <span>meet rachel</span>
-  </Btn>
-
-</div>
-
-
-
-</div>
+    <Reveal>
+      <div className= 'double-cards'>
+      <div className="col-1"> 
+    <AnimatedText/>
+    <div>
+    <Btn>
+      <span>meet rachel</span>
+      </Btn>
+    </div>
+    </div>
 
  <video playsInline autoPlay muted loop className="col-2 rounded-2xl" id='jmp'>
         <source
@@ -100,7 +92,14 @@ As a creative developer, I focus on both design and development — allowing me 
          
         </div>
     </div>
+
 </div>
+<br/>
+         
+         <Btn><a href="#explorework">
+  <span className='p-2 uppercase'>explore work </span>
+  </a>
+  </Btn>
 </div>
 
 <div>
@@ -123,23 +122,51 @@ As a creative developer, I focus on both design and development — allowing me 
         </div>
         <div className=" py-2">
             <span className="inline-block border border-white rounded-full px-3 py-1 text-xs font-semibold text-white mr-2">Figma</span>
-            <span className="inline-block border border-white rounded-full px-3 py-1 text-xs font-semibold text-white mr-2">Tailwind</span>
+            <span className="inline-block border border-white rounded-full px-3 py-1 text-xs font-semibold text-white mr-2">Design</span>
         </div>
+ 
     </div>
 </div>
-
+  
 </div>
+
 </div>
 
 </Reveal>
 </section>
 <br/><br/><br/>
-
+<div className='' id="explorework">
 <WorkCards/>
+    <section className='uppercase' style={{fontFamily:"Porlane", fontSize:"15rem", letterSpacing:"4px"}}>
+<Marquee>
+<span>Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work</span>
+  
+</Marquee>
+</section>
+</div>
+
+
+<section className='mp4-wrapper'>
+
+  <div  className='parallax text-center' style={{fontFamily:"Porlane", fontSize:"15rem", letterSpacing:"4px"}}>
+view
+
+  </div>
+ 
+<section className='mt-12'>
+
 <Contact/>
+</section>
+
+</section>
+
+
 </section>
 
 
 
 
 );}
+
+
+// https://github.com/R-LaRoi/st-studio-app/assets/114012059/112092a5-1ff3-4c1b-af28-bc5374adf0d8

@@ -146,3 +146,30 @@
   font-size: 27rem;
   color: #f2f2f2;
 }
+
+.disc {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.parallax {
+  position: relative;
+  z-index: -100;
+  /* background-color: #f2f2f2; */
+  background-image: url("https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad");
+  height: 800px;
+  overflow: hidden;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vid {
+  position: relative;
+  z-index: -1;
+  /* height: 500px; */
+}

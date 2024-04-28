@@ -34,7 +34,7 @@ requestAnimationFrame(raf)
 let showCards = projectData.map((item, index)=> {
 
 
-if(index < 4)
+if(index < 3)
 
 return(
 <div ref={container} className='wrapper' key={item?.id} >
@@ -65,7 +65,7 @@ return(
 return(
 
   <>
-  <section className='mt-12 p-8'>
+  <section className=' '>
     {showCards}
   </section>
   
