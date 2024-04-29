@@ -2,7 +2,26 @@
 import React, {useState} from "react";
 import { Spin as Hamburger } from 'hamburger-react'
 import './Stylesheets/nav.css'
+import {motion} from "framer-motion";
 
+
+const menu = {
+  open: {transition: { duration: 0.75, type: "tween", ease: [0.76, 0, 0.24, 1]}},
+      closed: {
+
+        // width: "100px",
+
+        // height: "40px",
+
+        top: "0px",
+
+        right: "0px",
+
+        transition: { duration: 0.75, delay: 0.35, type: "tween", ease: [0.76, 0, 0.24, 1]}
+
+    }
+
+}
 
 
 
@@ -16,7 +35,6 @@ const showNavMenu = () => {
   return (
 
     <section className='nav-container'>
-      
         <div className="-nav p-6">
        rachelstroy
               <button className=" pill text-white font-bold ext-white font-bold py-1 px-3  rounded-full">
@@ -33,10 +51,17 @@ const showNavMenu = () => {
      <Hamburger toggled={navActive} toggle={setNavActive}   /> 
 
         </div>  
-  <div className="overlay">
+ <motion.div 
+ variants={menu}
 
-  <ul className="nav-list w-full flex flex-col items-start text-3xl">
-    <li>close</li>
+                animate={navActive ? "open" : "closed"}
+
+                initial="closed">
+
+ <div className="overlay">
+
+  <ul className=" nav-list text-left">
+
     <li>
    home
     </li>
@@ -46,8 +71,14 @@ const showNavMenu = () => {
     <li>
       connect
     </li>
+<li>studio </li>
+{/* <div style={{ fontFamily:"Visby", fontSize:".8rem"}}>2024</div> */}
   </ul> 
+
+
   </div>
+ </motion.div>
+ 
 </>
 
 

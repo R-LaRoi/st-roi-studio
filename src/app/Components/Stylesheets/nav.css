@@ -4,34 +4,32 @@
   display: flex;
   flex-direction: row;
   position: fixed;
-  z-index: 99;
+  z-index: 9999;
 }
 
 .button {
   position: fixed;
   right: 0px;
   margin: 20px;
-  z-index: 1;
+  z-index: 999;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2f2f2;
+  background-color: #d4d4d4;
   padding: 1px;
+  transition: color 0.5s;
 }
 
 .overlay {
-  padding: 2rem;
+  height: 100vh;
+  width: 100vw;
   background: #292929;
+  position: fixed;
+
   bottom: 0;
   left: 0;
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100vw;
-  z-index: -1;
 }
 
 .pill {
@@ -45,7 +43,8 @@
 }
 
 .nav-list {
-  margin-top: 2rem;
+  margin: 2rem;
+  margin-top: 6rem;
   background: #343434;
   padding: 3rem;
   font-size: 6.5rem;
@@ -53,10 +52,16 @@
   text-transform: uppercase;
   line-height: 1;
   color: whitesmoke;
+  height: 85vh;
   border-radius: 30px;
 }
 
 li {
-  border-bottom: 1px solid white;
-  width: 900px;
+  padding: 0.5rem;
+  border-bottom: 0.9px solid rgb(146, 142, 142);
+  /* width: 900px; */
+}
+
+.-nav {
+  z-index: 1000;
 }
