@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import { Spin as Hamburger } from 'hamburger-react'
 import './Stylesheets/nav.css'
 import {motion} from "framer-motion";
+import Link from "next/link"
 
 
 const menu = {
@@ -38,7 +39,7 @@ const showNavMenu = () => {
         <div className="-nav p-6">
        rachelstroy
               <button className=" pill text-white font-bold ext-white font-bold py-1 px-3  rounded-full">
-  Button
+--
 </button>
         </div>
  
@@ -62,16 +63,18 @@ const showNavMenu = () => {
 
   <ul className=" nav-list text-left">
 
-    <li>
+    <Link href ="/" ><li>
    home
     </li>
-    <li>
+    </Link>
+    <Link href ="/Menu/Work" >  <li>
       work
-    </li>
-    <li>
+    </li></Link>
+   <Link href ="/Menu/Connect"> <li>
       connect
-    </li>
-<li>studio </li>
+    </li></Link>
+   
+<li><a href="https://www.rachelstroy.com/" target="_blank"> studio </a></li>
 {/* <div style={{ fontFamily:"Visby", fontSize:".8rem"}}>2024</div> */}
   </ul> 
 

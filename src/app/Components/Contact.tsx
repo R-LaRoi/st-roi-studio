@@ -4,9 +4,9 @@ import { Btn } from './Btn';
 
 export const Contact = (): React.ReactElement => {
 return(
-<section className="--contact p-8 ">
+<section className="--contact p-8" >
 <div className="contact-card-container rounded-3xl p-5 ">
- <div className="ct-col-1">
+ <div className="ct-col-1" id="contact">
 Designer & Developer
  </div>
   <div className=" ct-col-2" style={{fontFamily:'Porlane', fontSize:'3rem'}}>
