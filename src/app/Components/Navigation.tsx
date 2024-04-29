@@ -3,12 +3,7 @@ import React, {useState} from "react";
 import { Spin as Hamburger } from 'hamburger-react'
 import './Stylesheets/nav.css'
 
-import{Anime} from './Anime'
 
-const variants = {
-  open: { opacity: 1, x: 0 },
-  closed: { opacity: 0, x: "-100%" },
-}
 
 
 export const NavBar = (): React.ReactElement => {
@@ -18,8 +13,6 @@ const showNavMenu = () => {
    setNavActive(!navActive)
   }
 
-  
- 
   return (
 
     <section className='nav-container'>
@@ -35,13 +28,11 @@ const showNavMenu = () => {
         
 
 { navActive ? 
-
+<>
 <div onClick={showNavMenu} className="button">
-
-
      <Hamburger toggled={navActive} toggle={setNavActive}   /> 
 
-        
+        </div>  
   <div className="overlay">
 
   <ul className="nav-list w-full flex flex-col items-start text-3xl">
@@ -57,8 +48,8 @@ const showNavMenu = () => {
     </li>
   </ul> 
   </div>
+</>
 
-  </div>
 
   :
 
