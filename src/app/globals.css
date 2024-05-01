@@ -16,6 +16,10 @@
     url("./Fonts/Porlane-Regular.ttf") format("opentype") tech(color-COLRv1);
 }
 
+.poppinsType {
+  font-family: var(--font-poppins);
+}
+
 body {
   background: #292929;
   color: #f2f2f2;

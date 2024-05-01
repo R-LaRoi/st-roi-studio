@@ -1,9 +1,16 @@
 "use client"
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const PoppinsType = Poppins({
+  display: 'swap',
+   subsets: ["latin"],
+  weight:['200','300', '400'],
+  variable: '--font-poppins', });
 
+
+
+  
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -11,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${PoppinsType.variable}`}>{children}</body>
     </html>
   );
 }
