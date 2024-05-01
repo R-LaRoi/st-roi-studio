@@ -1,6 +1,9 @@
 "use client"
-import { Poppins } from "next/font/google";
+
 import "./globals.css";
+import PorlaneType from 'next/font/local'
+import VisbyType from 'next/font/local'
+import { Poppins } from "next/font/google";
 
 const PoppinsType = Poppins({
   display: 'swap',
@@ -10,7 +13,17 @@ const PoppinsType = Poppins({
 
 
 
-  
+const Porlane = PorlaneType({src:'./app/Fonts/Porlane-Regular.ttf',
+display: 'swap',
+variable: '--font-porlane',
+})
+
+const Visby = VisbyType({src:'./app/Fonts/VisbyRegular.ttf',
+display: 'swap',
+variable: '--font-visby',
+})
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${PoppinsType.variable}`}>{children}</body>
+      <body className={`${Visby.variable} font-sans`}>{children}</body>
     </html>
   );
 }
