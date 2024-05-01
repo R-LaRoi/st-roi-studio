@@ -16,12 +16,11 @@
 
 .--contact {
   height: 90vh;
-  font-family: "Visby";
 }
 
 .center-text {
   padding-top: 2rem;
-  font-family: "Porlane";
+  font-family: var(--font-porlane);
   font-size: 11rem;
   text-transform: uppercase;
   line-height: 0.8;
@@ -64,7 +63,7 @@
 
   .center-text {
     padding: 0rem;
-    font-family: "Porlane";
+
     font-size: 20vw;
     text-transform: uppercase;
     line-height: 0.8;

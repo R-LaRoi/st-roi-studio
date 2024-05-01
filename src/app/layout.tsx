@@ -13,12 +13,12 @@ const PoppinsType = Poppins({
 
 
 
-const Porlane = PorlaneType({src:'./app/Fonts/Porlane-Regular.ttf',
+const Porlane = PorlaneType({src:'./Fonts/Porlane-Regular.ttf',
 display: 'swap',
 variable: '--font-porlane',
 })
 
-const Visby = VisbyType({src:'./app/Fonts/VisbyRegular.ttf',
+const Visby = VisbyType({src:'./Fonts/VisbyRegular.ttf',
 display: 'swap',
 variable: '--font-visby',
 })
@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Visby.variable} font-sans`}>{children}</body>
+      <body className={`${Visby.variable} ${Porlane.variable} font-sans`}>{children}</body>
     </html>
   );
 }

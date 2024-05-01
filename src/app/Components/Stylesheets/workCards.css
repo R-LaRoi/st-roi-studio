@@ -25,7 +25,7 @@
 }
 
 .wk-col-1 {
-  font-family: "Visby";
+  font-family: var(--font-visby);
   padding: 3rem;
 }
 

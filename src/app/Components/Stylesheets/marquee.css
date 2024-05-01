@@ -17,7 +17,7 @@
 .marquee-text {
   margin-top: 3rem;
   text-transform: uppercase;
-  font-family: "Porlane", sans-serif;
+  font-family: var(--font-porlane);
   font-size: 30rem;
   color: #f2f2f2;
 }

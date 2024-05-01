@@ -16,7 +16,8 @@
   background: #ffff;
   color: #292929;
   padding: 9rem 3rem;
-  font-family: "Visby";
+  font-family: var(--font-visby);
+  font-weight: bolder;
   height: 115%;
   display: flex;
   flex-direction: column;
@@ -57,7 +58,6 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: "Visby";
   font-size: 2rem;
   margin: 2rem 2rem;
   line-height: 1;
@@ -66,7 +66,7 @@
 }
 
 .abt-title {
-  font-family: "Porlane";
+  font-family: var(--font-porlane);
   font-size: 5rem;
   text-transform: uppercase;
 }
@@ -110,7 +110,6 @@
   .about {
     display: grid;
     grid-template-columns: 1fr;
-    font-family: "Visby";
     font-size: 2rem;
     margin: 3rem 2rem;
     padding-bottom: 5rem;
@@ -142,7 +141,7 @@
 
 .marquee-text {
   text-transform: uppercase;
-  font-family: "Porlane", sans-serif;
+  font-family: var(--font-porlane);
   font-size: 27rem;
   color: #f2f2f2;
 }

@@ -4,18 +4,6 @@
 
 @import "tailwindcss/utilities";
 
-@font-face {
-  font-family: "Visby";
-  src: local("Visby"),
-    url("./Fonts/VisbyRegular.ttf") format("opentype") tech(color-COLRv1);
-}
-
-@font-face {
-  font-family: "Porlane";
-  src: local("Porlane"),
-    url("./Fonts/Porlane-Regular.ttf") format("opentype") tech(color-COLRv1);
-}
-
 .poppinsType {
   font-family: var(--font-poppins);
 }
