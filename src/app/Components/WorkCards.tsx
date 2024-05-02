@@ -46,7 +46,7 @@ return(
       
       >
         <div className='wk-col-1'>
-        <h2 style={{fontFamily:"Porlane" , fontSize:"4rem"}}>{item?.title}</h2>
+        <h2 className="h2-title" >{item?.title}</h2>
         <p>{item?.text}</p> 
         </div>
 

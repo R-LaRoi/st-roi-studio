@@ -48,8 +48,33 @@
   display: block;
 }
 
+.h2-title {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-family: var(--font-porlane);
+}
+
 @media (max-width: 768px) {
   .wk-card-container {
     grid-template-columns: 1fr;
+  }
+
+  .wk-col-2 {
+    border-radius: 0px;
+  }
+
+  .wk-col-1 {
+    font-family: var(--font-visby);
+    padding: 3rem;
+    height: 50vh;
+  }
+}
+@media (max-width: 568px) {
+  #explorework {
+    padding-top: 16rem;
+  }
+  .h2-title {
+    text-transform: uppercase;
+    font-size: 4.5rem;
   }
 }
