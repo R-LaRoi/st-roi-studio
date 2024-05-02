@@ -71,7 +71,7 @@
 }
 @media (max-width: 568px) {
   #explorework {
-    padding-top: 16rem;
+    padding: 18rem 0rem;
   }
   .h2-title {
     text-transform: uppercase;

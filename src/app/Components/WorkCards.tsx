@@ -65,7 +65,7 @@ return(
 return(
 
   <>
-  <section className=' '>
+  <section className=''>
     {showCards}
   </section>
   
