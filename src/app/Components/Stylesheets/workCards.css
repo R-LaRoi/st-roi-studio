@@ -54,6 +54,12 @@
   font-family: var(--font-porlane);
 }
 
+.second-marquee {
+  font-family: var(--font-porlane);
+  font-size: 15rem;
+  letter-spacing: 4px;
+}
+
 @media (max-width: 768px) {
   .wk-card-container {
     grid-template-columns: 1fr;
@@ -75,10 +81,17 @@
 }
 @media (max-width: 568px) {
   #explorework {
-    padding: 18rem 0rem;
+    padding: 18rem 0rem 10rem;
   }
   .h2-title {
     text-transform: uppercase;
     font-size: 4.5rem;
+  }
+
+  .second-marquee {
+    font-family: Porlane;
+    font-size: 7rem;
+    letter-spacing: 4px;
+    height: 50px;
   }
 }

@@ -137,7 +137,7 @@ As a creative developer, I focus on both design and development — allowing me 
 <br/><br/><br/>
 <div className='' id="explorework">
 <WorkCards/>
-    <section className='uppercase' style={{fontFamily:"Porlane", fontSize:"15rem", letterSpacing:"4px"}}>
+    <section className=' second-marquee uppercase' >
 <Marquee>
 <span>Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work</span>
   
