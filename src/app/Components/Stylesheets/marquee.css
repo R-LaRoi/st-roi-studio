@@ -26,6 +26,7 @@
     margin-top: 4.5rem;
     font-size: 11rem;
     color: #f2f2f2;
+    font-family: var(--font-porlane);
   }
   .marquee {
     height: 260px;

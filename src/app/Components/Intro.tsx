@@ -148,7 +148,7 @@ As a creative developer, I focus on both design and development — allowing me 
 
 <section className='mp4-wrapper'>
 
-  <div  className='parallax text-center' style={{fontFamily:"Porlane", fontSize:"15rem", letterSpacing:"4px"}}>
+  <div  className='parallax text-center' >
 view
 
   </div>

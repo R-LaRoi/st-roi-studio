@@ -89,7 +89,8 @@
   }
 
   .second-marquee {
-    font-family: Porlane;
+    font-family: var(--font-porlane);
+
     font-size: 7rem;
     letter-spacing: 4px;
     height: 50px;
