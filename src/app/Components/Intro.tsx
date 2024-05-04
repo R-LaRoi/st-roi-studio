@@ -163,7 +163,6 @@ As a creative developer, I focus on both design and development — allowing me 
 
 <section className='mt-12'>
 
-
 <Contact/>
 </section>
 

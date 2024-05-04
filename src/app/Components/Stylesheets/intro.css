@@ -208,6 +208,28 @@
   .mq-parallax {
     display: block;
   }
+
+  .wk-list {
+    margin-top: 8rem;
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    width: max-content;
+    height: 200px;
+  }
+  .li-list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: end;
+    text-transform: uppercase;
+  }
+
+  .number {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+  }
 }
 
 .vid {
