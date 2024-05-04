@@ -35,7 +35,6 @@
   right: 0%;
   overflow: hidden;
   position: relative;
-  overflow: hidden;
 }
 
 .double-cards {
@@ -96,12 +95,36 @@
   /* background-color: #f2f2f2; */
   background-image: url("https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad");
   height: 800px;
-  overflow: hidden;
-
+  overflow: hidden !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wk-list {
+  margin-top: 5rem;
+  position: relative;
+  float: right;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  width: max-content;
+  height: 500px;
+}
+.li-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: end;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 1.5rem;
+  padding-left: 12rem;
+}
+.mq-parallax {
+  display: none;
 }
 @keyframes slideup {
   from {
@@ -176,6 +199,14 @@
 
   .intro-text {
     font-size: 1.3rem;
+  }
+
+  .parallax {
+    display: none;
+  }
+
+  .mq-parallax {
+    display: block;
   }
 }
 

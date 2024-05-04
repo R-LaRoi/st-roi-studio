@@ -58,6 +58,10 @@
   font-family: var(--font-porlane);
   font-size: 15rem;
   letter-spacing: 4px;
+  height: 300px;
+}
+#explorework {
+  padding: 18rem 0rem 0rem;
 }
 
 @media (max-width: 768px) {

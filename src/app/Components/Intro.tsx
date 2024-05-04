@@ -139,7 +139,7 @@ As a creative developer, I focus on both design and development — allowing me 
 <WorkCards/>
     <section className=' second-marquee uppercase' >
 <Marquee>
-<span>Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work  Explore Work</span>
+<span>Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Projects Explore Work</span>
   
 </Marquee>
 </section>
@@ -149,11 +149,20 @@ As a creative developer, I focus on both design and development — allowing me 
 <section className='mp4-wrapper'>
 
   <div  className='parallax text-center' >
-view
 
   </div>
  
+ <img  className="mq-parallax" src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad" alt="" />
+
+<ul className=' wk-list mt-12'>
+<li className='li-list'><span className='number'>01.</span><span>VIEW PROJECTS</span></li>
+  <li className='li-list'><span className='number'>02.</span><span> DESIGN & DEVELOP</span></li>
+  
+  <li className='li-list'><span className='number'>03.</span><span><a href="https://www.rachelstroy.com/" target="_blank"> studio_ </a></span></li>
+</ul>
+
 <section className='mt-12'>
+
 
 <Contact/>
 </section>
