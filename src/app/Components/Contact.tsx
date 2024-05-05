@@ -42,10 +42,15 @@ working together
 
   <div className=" ct-col-2">
 <ul className= 'grid-link'>
-<li className="ct-links">github</li>
-<li className="ct-links">linkedin</li>
 <li className="ct-links">
-studio
+  <a href="https://github.com/R-LaRoi">github</a>
+  </li>
+<li className="ct-links">
+  <a href="https://www.linkedin.com">linkedin</a>
+  </li>
+<li className="ct-links">
+  <a href="https://www.linkedin.com">studio</a>
+
 </li>
 </ul>
  </div>
