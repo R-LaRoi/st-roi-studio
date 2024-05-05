@@ -95,7 +95,8 @@
 }
 @media (max-width: 568px) {
   .wk-text-p {
-    margin-top: 5rem;
+    margin-top: 0rem;
+    line-height: 1.2;
   }
 
   #explorework {
@@ -112,5 +113,11 @@
     font-size: 7rem;
     letter-spacing: 4px;
     height: 50px;
+  }
+
+  .card-links {
+    position: relative;
+    top: -4%;
+    float: left;
   }
 }
