@@ -12,15 +12,16 @@ export const Intro = (): React.ReactElement => {
 
 return(
 <section>
-<section className="--intro ">
+<section className="--intro " id="hero">
     <Reveal>
       <div className= 'double-cards'>
       <div className="col-1"> 
     <AnimatedText/>
     <div>
+      <a href="#about">
     <Btn>
       <span>meet rachel</span>
-      </Btn>
+      </Btn></a>
     </div>
     </div>
 
@@ -42,7 +43,7 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 
 </div>
 
-<section className="about">
+<section className="about" id="about">
 <Reveal>
 
     <h3 className='abt-title'>about me</h3>

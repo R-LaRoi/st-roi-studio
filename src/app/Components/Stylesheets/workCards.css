@@ -50,10 +50,14 @@
 
 .h2-title {
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: var(--font-porlane);
+  height: 110px;
 }
 
+.wk-text-p {
+  margin-top: 20rem;
+}
 .second-marquee {
   font-family: var(--font-porlane);
   font-size: 15rem;
@@ -62,6 +66,12 @@
 }
 #explorework {
   padding: 18rem 0rem 0rem;
+}
+
+.card-links {
+  position: relative;
+  top: 7%;
+  float: left;
 }
 
 @media (max-width: 768px) {
@@ -80,16 +90,20 @@
     font-family: var(--font-visby);
     padding: 3rem;
     height: 49vh;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 568px) {
+  .wk-text-p {
+    margin-top: 5rem;
+  }
+
   #explorework {
     padding: 18rem 0rem 10rem;
   }
   .h2-title {
     text-transform: uppercase;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
 
   .second-marquee {

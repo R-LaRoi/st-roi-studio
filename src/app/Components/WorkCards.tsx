@@ -47,7 +47,23 @@ return(
       >
         <div className='wk-col-1'>
         <h2 className="h2-title" >{item?.title}</h2>
-        <p>{item?.text}</p> 
+<div className='card-links '
+
+><ul className= 'grid-link'>
+<a href={item?.git}><li className="ct-links text-center">
+  github
+  </li></a>
+  <a href={item?.link} >
+<li className="ct-links text-center">
+view
+  </li></a>
+
+
+        </ul></div>
+          <br/>     <br/> <br/>   
+        <p className='wk-text-p 
+
+ '>{item?.text}</p> 
         </div>
 
 <img className='wk-col-2' src={item?.photo} alt="" />

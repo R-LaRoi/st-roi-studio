@@ -32,11 +32,12 @@ working together
    <div className=" ct-col-3">
 
  </div><div className="ct-col-1">
-<div> 
+<div>
+   <a href="#hero">
 <Btn>
-  <span> back to top</span>
+  <span>back to top</span>
 </Btn>
-
+</a> 
 </div>
  </div>
 
