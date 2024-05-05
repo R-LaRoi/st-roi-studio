@@ -5,7 +5,7 @@ export const projectData = [
     // video: tsc,
     image: '',
     title: 'TSC',
-  text: 'Trupti Samuel Consultancy, a company profile providing parental consults and professional development workshops. Users are able to navigate information about the services provided. Some key features include consultation scheduling and learn more button. Users are able to fill out a contact form and send a message to TSC company email.'
+  text: 'Trupti Samuel Consultancy provides parental consults and development workshops. Interactions include navigating through services provided and a contact form to submit inquiries to company email.'
 , 
 link:'https://truptisamuelconsultancy.au',
 photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/c9e7adbb-45a0-4267-a2e8-0e574ed25578",
@@ -31,7 +31,7 @@ link:'https://atelier718.com',
  {
    id:13, 
        title: 'Vista',
-  text:'Vista is an e-commerce platform that allows users to create a custom storefront and subdomain. Some key features include custom store banner, product archive, search functionality, shopping cart, and order history.',
+  text:'Vista is an e-commerce platform that allows users to create a custom storefront and subdomain. Key features include custom store banner, product archive, search functionality, shopping cart, and order history.',
 
 git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
 link:'https://fashionvista.vercel.app/',

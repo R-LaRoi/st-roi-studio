@@ -38,9 +38,9 @@ const showNavMenu = () => {
     <section className='nav-container'>
         <div className="-nav p-6">
        rachelstroy
-              <button className=" pill text-white font-bold ext-white font-bold py-1 px-3  rounded-full">
+              {/* <button className=" pill text-white font-bold ext-white font-bold py-1 px-3  rounded-full">
 --
-</button>
+</button> */}
         </div>
  
 

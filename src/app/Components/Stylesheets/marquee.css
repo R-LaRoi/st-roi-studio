@@ -18,14 +18,14 @@
   text-transform: uppercase;
   font-family: var(--font-porlane);
   font-size: 30rem;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 586px) {
   .marquee-text {
     margin-top: 4.5rem;
     font-size: 11rem;
-    color: #f2f2f2;
+    color: #ffffff;
     font-family: var(--font-porlane);
   }
   .marquee {
