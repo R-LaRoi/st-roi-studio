@@ -7,6 +7,7 @@ import Lenis from '@studio-freight/lenis'
 
 
 
+
 export const WorkCards = ()=> {
   
 const offset = -15;

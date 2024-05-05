@@ -7,9 +7,11 @@ import {AnimatedText } from './AnimatedText';
 import './Stylesheets/intro.css'
 import { WorkCards } from './WorkCards';
 import { Marquee } from './Marquee';
+import Link from "next/link"
+
+
 
 export const Intro = (): React.ReactElement => {
-
 return(
 <section>
 <section className="--intro " id="hero">
@@ -50,7 +52,7 @@ https://github.com/R-LaRoi/st-studio-app/assets/114012059/dc455318-5eea-48d3-9e8
 
 </Reveal>
 <Reveal>
-<p>
+<p className='abt-p'>
 As a creative developer, I focus on both design and development — allowing me to work on projects from concept until deployed. Focusing on unique layouts, interactions and great typography to offer user friendly web experiences.
 </p>
 </Reveal> 
@@ -68,7 +70,7 @@ As a creative developer, I focus on both design and development — allowing me 
   </h3>
   </ScrollPage>
 <Reveal>
-<div className="--cards ">
+<div className="--cards " style={{fontFamily:'var(--font-visby)'}}>
 <div>
 <div className=" h-full flex px-3 py-5 bg-neutral-700 rounded-lg ">
     <div className="max-w-sm rounded overflow-hidden ">
@@ -81,9 +83,9 @@ As a creative developer, I focus on both design and development — allowing me 
     >
       <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM513.1 518.1l-192 161c-5.2 4.4-13.1.7-13.1-6.1v-62.7c0-2.3 1.1-4.6 2.9-6.1L420.7 512l-109.8-92.2a7.63 7.63 0 01-2.9-6.1V351c0-6.8 7.9-10.5 13.1-6.1l192 160.9c3.9 3.2 3.9 9.1 0 12.3zM716 673c0 4.4-3.4 8-7.5 8h-185c-4.1 0-7.5-3.6-7.5-8v-48c0-4.4 3.4-8 7.5-8h185c4.1 0 7.5 3.6 7.5 8v48z" />
     </svg>
-        <div className="  py-2">
-            <div className="font-bold text-3xl pb-12">Web Development</div>
-            <p className="text-white text-base mt-12 pt-20">
+        <div className="  py-2" >
+            <div className="text-3xl pb-12">Web Development</div>
+            <p className="text-white text-base mt-12 pt-20" >
                 Unique layouts, interactions and great typography is what I focus on when working on websites.
             </p>
         </div>
@@ -116,7 +118,7 @@ As a creative developer, I focus on both design and development — allowing me 
       <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM513.1 518.1l-192 161c-5.2 4.4-13.1.7-13.1-6.1v-62.7c0-2.3 1.1-4.6 2.9-6.1L420.7 512l-109.8-92.2a7.63 7.63 0 01-2.9-6.1V351c0-6.8 7.9-10.5 13.1-6.1l192 160.9c3.9 3.2 3.9 9.1 0 12.3zM716 673c0 4.4-3.4 8-7.5 8h-185c-4.1 0-7.5-3.6-7.5-8v-48c0-4.4 3.4-8 7.5-8h185c4.1 0 7.5 3.6 7.5 8v48z" />
     </svg>
         <div className="  py-2">
-            <div className="font-bold text-3xl pb-12">UX | UI Design</div>
+            <div className="text-3xl pb-12">UX Design</div>
             <p className="text-white text-base mt-12 pt-20">
               Designing for the web is not static. It&apos;s about interactions, animations, usability, consistency and so much more.
             </p>
@@ -156,8 +158,24 @@ As a creative developer, I focus on both design and development — allowing me 
  <img  className="mq-parallax" src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad" alt="" />
 
 <ul className=' wk-list mt-12'>
-<li className='li-list'><span className='number'>01.</span><span>VIEW PROJECTS</span></li>
-  <li className='li-list'><span className='number'>02.</span><span> DESIGN & DEVELOP</span></li>
+    <Link href ="/Menu/Work" >
+      <li className='li-list'>
+        <span className='number'>
+          01.
+          </span>
+        <span>
+          VIEW PROJECTS
+          </span>
+          </li>
+          </Link>
+        <li className='li-list'>
+          <span className='number'>
+            02.
+            </span>
+            <span>
+               DESIGN & DEVELOP
+              </span>
+              </li>
   
   <li className='li-list'><span className='number'>03.</span><span><a href="https://www.rachelstroy.com/" target="_blank"> studio_ </a></span></li>
 </ul>

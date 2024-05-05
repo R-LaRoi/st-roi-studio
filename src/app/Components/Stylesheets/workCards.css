@@ -114,8 +114,9 @@
 }
 @media (max-width: 568px) {
   .wk-text-p {
-    margin-top: 0rem;
+    font-size: 0.8rem;
     line-height: 1.2;
+    margin-top: 4rem;
   }
 
   #explorework {
@@ -138,5 +139,15 @@
     position: relative;
     /* top: -4%; */
     float: left;
+  }
+
+  .g-link {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .g-link:hover {
+    background-color: #292929e2;
+    color: white;
   }
 }

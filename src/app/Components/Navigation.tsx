@@ -63,19 +63,25 @@ const showNavMenu = () => {
 
   <ul className=" nav-list text-left">
 
-    <Link href ="/" ><li>
-   home
+    <Link href ="/" ><li className='li-list'>
+      <span className='number'>00.</span>
+      <span>home</span>
+      </li>
+
+    </Link>
+    <Link href ="/Menu/Work" > <li className='li-list'>
+     <span className='number'>01.</span><span>work</span>
+    </li></Link>
+   <Link href ="/Menu/Connect"> <li className='li-list'>
+     <span className='number'>02.</span><span>CONNECT</span>
     </li>
     </Link>
-    <Link href ="/Menu/Work" >  <li>
-      work
-    </li></Link>
-   <Link href ="/Menu/Connect"> <li>
-      connect
-    </li></Link>
    
-<li><a href="https://www.rachelstroy.com/" target="_blank"> studio </a></li>
-{/* <div style={{ fontFamily:"Visby", fontSize:".8rem"}}>2024</div> */}
+ <li className='li-list'>
+     <span className='number'>03.</span><span><a href="https://www.rachelstroy.com/" target="_blank"> Studio_</a></span>
+    </li>
+
+ 
   </ul> 
 
 
@@ -102,3 +108,11 @@ const showNavMenu = () => {
   );
  
 }
+
+
+{/* <ul className=' wk-list mt-12'>
+<li className='li-list'><span className='number'>01.</span><span>VIEW PROJECTS</span></li>
+  <li className='li-list'><span className='number'>02.</span><span> DESIGN & DEVELOP</span></li>
+  
+  <li className='li-list'><span className='number'>03.</span><span><a href="https://www.rachelstroy.com/" target="_blank"> studio_ </a></span></li>
+</ul> */}
