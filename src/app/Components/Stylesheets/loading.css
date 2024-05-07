@@ -1,122 +1,16 @@
-@keyframes loading {
-  0% {
-    opacity: 0;
-    transform: scale(0.15);
-    box-shadow: 0 0 2px rgba(black, 0.1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(2);
-    box-shadow: 0 0 10px rgba(black, 0.1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0.15);
-    box-shadow: 0 0 2px rgba(black, 0.1);
-  }
-}
-
 .load-body {
-  display: flex;
-  /* height: 100vh;
-  width: 100%; */
-  justify-content: center;
-  align-items: center;
-  background: #292929;
-  color: black;
-}
-
-.loader {
-  display: block;
   position: relative;
-  height: 100px;
-  width: 100px;
-  color: rgb(26, 25, 25);
+  float: right;
+  bottom: 6rem;
+  padding: 2rem;
   overflow: hidden;
 }
-.loader::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 100%;
-  animation: loading 3s linear infinite;
-}
-.loader:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 3rem;
-  /* line-height: 32px; */
-  font-family: "Porlane", sans-serif;
-  color: rgb(226, 226, 226);
-  mix-blend-mode: difference;
-  animation: percentage 3s linear infinite;
-}
 
-@keyframes loading {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@keyframes percentage {
-  0% {
-    content: "0%";
-  }
-  5% {
-    content: "5%";
-  }
-  10% {
-    content: "10%";
-  }
-  20% {
-    content: "20%";
-  }
-  30% {
-    content: "30%";
-  }
-  40% {
-    content: "40%";
-  }
-  50% {
-    content: "50%";
-  }
-  60% {
-    content: "60%";
-  }
-  70% {
-    content: "70%";
-  }
-  80% {
-    content: "80%";
-  }
-  90% {
-    content: "90%";
-  }
-  95% {
-    content: "95%";
-  }
-  96% {
-    content: "96%";
-  }
-  97% {
-    content: "97%";
-  }
-  98% {
-    content: "98%";
-  }
-  99% {
-    content: "99%";
-  }
-  100% {
-    content: "100%";
-  }
+.load-name {
+  position: relative;
+  top: 43rem;
+  padding-left: 3rem;
+  overflow: hidden;
+  font-size: 4rem;
+  font-family: var(--font-porlane);
 }

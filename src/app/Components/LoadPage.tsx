@@ -1,5 +1,6 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect } from "react";
+import '../Components/Stylesheets/loading.css'
 
 export const LoadPage = ()=> {
   const count = useMotionValue(0);
@@ -13,11 +14,14 @@ export const LoadPage = ()=> {
   }, []);
 
   return (
-
- <div className="bg-zinc-800 text-center">
-  <motion.h1  
-  style={{fontFamily:'var(--font-porlane)', fontSize:"20rem", color:"#f2f2f2"}}>{rounded}</motion.h1>
+<section>
+ <div className="text-center ">
+  <motion.h1  className="load-body"
+  style={{fontFamily:'var(--font-porlane)', fontSize:"15rem", color:"#f2f2f2"}}>{rounded}</motion.h1>
   </div>
+<div className="load-name">rachelstroy_
+</div>
+  </section>
   )
  
 }
