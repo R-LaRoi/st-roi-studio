@@ -99,8 +99,16 @@ return(
 
   </div>
  
- <img  className="mq-parallax" src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad" alt="" />
-<section className='p-12'>
+  <video  className=''
+  autoPlay loop muted id="video">
+        <source
+          src="
+https://github.com/R-LaRoi/st-roi-studio/assets/114012059/1688da29-1d1f-48f3-beac-26f6a22d6135"
+          type="video/mp4"
+        />
+      </video>
+ {/* <img  className="mq-parallax" src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/11968111-d19c-4f65-b09d-eefb362fbfad" alt="" /> */}
+<section className=''>
 
 {showCards}
 </section>

@@ -164,19 +164,20 @@ As a creative developer, I focus on both design and development — allowing me 
           01.
           </span>
         <span>
-          VIEW PROJECTS
+         PROJECTS
           </span>
           </li>
           </Link>
+           <Link href ="/Menu/Connect" >
         <li className='li-list'>
           <span className='number'>
             02.
             </span>
             <span>
-               DESIGN & DEVELOP
+              CONTACT
               </span>
               </li>
-  
+  </Link>
   <li className='li-list'><span className='number'>03.</span><span><a href="https://www.rachelstroy.com/" target="_blank"> studio_ </a></span></li>
 </ul>
 
