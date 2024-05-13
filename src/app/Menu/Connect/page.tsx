@@ -13,13 +13,9 @@ return(
 <section className="container-contact">
 <section className='calendar'>
       <div>
-      <div className="wk--title">
- 
-     Get in 
- touch.
-    
+      <div className="wk--title"> Get in 
+ touch.  
 </div>
-
 
  <p className="contact-p"><b>Ready to bring your vision to life? Let's create a dynamic foundation that engages your audience to create lasting impressions.</b></p>
 <br />
