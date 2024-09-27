@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 // export const AnimatedText = ({children}:{ children?: React.ReactNode })
 
-const phrase = "Hi! Im Rachel Stroy. I work with with awesome people like you to create web experiences that are user-friendly and designed to go places."
+const phrase = "Hi! Im Rachel Stroy. I work with awesome people like you to create web experiences that are user-friendly and designed to go places."
 
 
 export const AnimatedText = () => {
