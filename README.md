@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Stroy | Developer Profile
 
-First, run the development server:
+Web developer profile. Users are able to preview the homepage, about page and a contact page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/35bbf7a7-7e24-4027-b1bb-1dfd02d3acd6)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/6fc9bb4f-be14-4a29-a2ac-1cdab5953a9e)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/4183ae26-eae1-4678-8ec1-1977de82f761)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/6be24bfc-50f2-4356-ae00-74433771793c)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/74b8efd8-d7b8-43b2-8ad8-09934402f783)
+
