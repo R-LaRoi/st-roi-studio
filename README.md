@@ -1,11 +1,18 @@
 
-# Stroy | Developer Profile
+# Developer Profile
 
-Web developer profile. Users are able to preview the homepage, about page and a contact page.
+A single-page application built with Next.js and TypeScript. It uses Framer Motion for smooth animations and is deployed on Vercel for fast, reliable performance.
+
+## Features
+- Next.js Framework: Utilizes the power of React with server-side rendering and static site generation capabilities.
+- TypeScript: Enhances code quality and developer productivity with static typing.
+- Framer Motion:
+- Responsive Design: Ensures an engaging experience across all devices.
+- Calendly 
+- Vercel Deployment
 
 
 ## Screenshots
-
 
 
 ![App Screenshot](https://github.com/R-LaRoi/st-roi-studio/assets/114012059/35bbf7a7-7e24-4027-b1bb-1dfd02d3acd6)
